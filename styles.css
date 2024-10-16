@@ -1,0 +1,47 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    margin: 20px 0px 0px 15px;
+}
+
+body {
+    background-color: rgb(124, 252, 250);
+    font-family: Verdana, sans-serif;
+}
+
+article,
+footer {
+    background-color: rgb(151, 237, 131);
+}
+
+section {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+
+article {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(55, 34, 132);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 0 15px 20px 15px;
+}
+
+@media (max-width: 600px) {
+    selection {
+        flex-direction: column;
+    }
+}
